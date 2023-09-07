@@ -1,0 +1,16 @@
+.containerofthedisrictspage {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 85%;
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+    row-gap: 30px;
+}
+
+body {
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+}
+
+h1 {
+    text-align: center;
+}

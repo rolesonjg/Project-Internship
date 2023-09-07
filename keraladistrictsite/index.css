@@ -1,0 +1,150 @@
+/* Style for the container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown links */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style for the individual link items */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change link color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when hovering over the container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.h1oftheindex {
+    width: 400px;
+    display: inline-block;
+    font-size: 60px;
+    height: 195px;
+
+}
+
+.headingandparagraph {
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    height: 400px;
+    width: 420px;
+
+
+}
+
+/* .poftheindex {
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+    /* margin-bottom: 30px; */
+/* Adjust the margin as needed */
+*/ body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* .spacerfortheh1andp {
+    margin-top: 100px;
+
+} */
+
+
+
+
+
+.headingandparagraphwithimage {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 60px;
+}
+
+.carouselpromax {
+    display: inline-block;
+    height: 600px;
+    width: 700px;
+}
+
+.placestovisit {
+
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 75px;
+    margin: 30px;
+    margin-left: 225px;
+}
+
+.footerpromax {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+
+    width: 1200px;
+    height: 400px;
+    column-gap: 10px;
+    margin: 30px;
+    margin-left: 125px;
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+
+}
+
+.spaceeofthefooter {
+    margin-top: 40px;
+}
+
+.footerpromax a {
+    color: #34E89E;
+
+
+
+}
+
+.footerpromax p {
+    color: #34E89E;
+}
+
+.cardoffooter {
+    display: grid;
+    row-gap: 5px;
+}
+
+.dividerpromax {
+    height: 115px;
+    width: 1400px;
+
+    margin-left: 75px;
+    display: flex;
+}
+
+body {
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+}
+
+#navbarpromax {
+    background: linear-gradient(45deg, #34E89E, #7dad8b);
+}
+
+.card {
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+}

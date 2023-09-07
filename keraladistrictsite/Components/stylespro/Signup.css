@@ -1,0 +1,64 @@
+/* Signup Container Styles */
+.signup {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Heading Styles */
+.signup h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Divider Line Styles */
+.dividerpromax {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+/* Signup Form Styles */
+.signupformcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.signupform {
+    text-align: left;
+}
+
+.signupform input[type="text"],
+.signupform input[type="email"],
+.signupform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signupform button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signupform button[type="submit"]:hover {
+    background-color: #258cd1;
+}
+
+body {
+    background: linear-gradient(45deg, #34E89E, #7dad8b);
+}
+
+h1 {
+    text-align: center;
+}

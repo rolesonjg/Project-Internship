@@ -1,0 +1,59 @@
+.headingofthedistrict {
+    text-align: center;
+}
+
+/* .couroselpromaxoftheidistricts {
+    width: 700px;
+    height: 700px;
+} */
+.imageoftheidistricts {
+    margin-left: 250px;
+
+    height: 650px;
+    width: 1000px;
+
+}
+
+.subheadingoftheidistricts {
+    text-align: center;
+
+}
+
+.poftheidistricts {
+    margin: 75px;
+}
+
+.placestovistinidistricts {
+    display: grid;
+    margin: 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+}
+
+body {
+    background: linear-gradient(45deg, #0F3443, #34E89E);
+}
+
+#Navbarofthepropax {
+    background: linear-gradient(45deg, #34E89E, #a0d3e8);
+
+}
+
+.card {
+    background: linear-gradient(45deg, #34E89E, #a0d3e8);
+}
+
+p {
+    font-weight: 600;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+/* Replace "element-selector" with your element's selector, e.g., .container, #header, etc. */
+backgroundbodyoftrivandrum {
+    /* Use the linear-gradient property with a URL */
+    background-image: linear-gradient(to right, #0F3443, #34E89E), url('../assets/thiruvananthapurampro.jpg');
+    background-size: cover;
+}
